@@ -68,3 +68,15 @@ A RelativeLayout is a common type of ViewGroup that lets us position its childre
    android:layout_alignParentRight="true"
 ```
 
+## Padding
+A View is a rectangular area on the screen. For example, a TextView contains text and an ImageView contains an image.<br>
+A View will shrink wrap itself around its content if we set the View’s width and/or height to the special value wrap_content. To prevent it from wrapping too tightly, we can specify an amount of padding on each side.<br>
+
+## Margin
+A View is a rectangular area on the screen. For example, a TextView displays text and an ImageView displays an image.<br>
+By default, two Views can be placed next to each other. If we don’t want them to touch, we can specify an amount of margin along one side of one of the Views. In fact, we can ask for a margin along all four sides of a View.<br>
+
+
+#### Links
+[Documentation](https://developer.android.com/guide?hl=en)
+[Vocab](https://developers.google.com/android/for-all/vocab-words/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
