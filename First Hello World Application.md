@@ -39,3 +39,12 @@ Name the activity MainActivity and the Layout Name activity_main<br>
 
 Depending on your computer speed it might take a minute to set up your project. Go ahead and get some tea or do a stretch.
 <br>
+<br>
+# Quick Start With Android Studio
+[Check out video](https://www.youtube.com/watch?v=lGuh4lTWroY)
+<br><br>
+
+# Running Hello World in your phone
+[Connect phone to your code](https://www.youtube.com/watch?time_continue=219&v=Q9z6fUSgKIg&feature=emb_logo)
+<br><br>
+
