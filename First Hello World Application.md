@@ -60,32 +60,34 @@ Depending on your computer speed it might take a minute to set up your project. 
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FAFAD2">
+        android:layout_height="match_parent">
 
-
-    <ImageView
+        <ImageView
             android:id="@+id/imagePNG1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/PNG1"
-            android:layout_centerInParent="true" />
+            android:src="@drawable/PNG4"
+            android:scaleType="centerCrop" />
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
 
-            <TextView
-                android:id="@+id/text1"
-                android:layout_gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="200dp"
-                android:text="Happy Valentine's Day Pranjal!"
-                android:background="@drawable/PNG1"/>
-
-        </LinearLayout>
-
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/PNG4"
+                    android:gravity="bottom"
+                    android:text="Happy Valentine's Day Pranjal!"
+                    android:textColor="#FFFAFA"
+                    android:textSize="45sp"
+                    android:layout_gravity="bottom"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
