@@ -48,3 +48,44 @@ Depending on your computer speed it might take a minute to set up your project. 
 [Connect phone to your code](https://www.youtube.com/watch?time_continue=219&v=Q9z6fUSgKIg&feature=emb_logo)
 <br><br>
 
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F0F8FF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAD2">
+
+
+    <ImageView
+            android:id="@+id/imagePNG1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/PNG1"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="200dp"
+                android:text="Happy Valentine's Day Pranjal!"
+                android:background="@drawable/PNG1"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
