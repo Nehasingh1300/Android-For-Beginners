@@ -81,7 +81,7 @@ Depending on your computer speed it might take a minute to set up your project. 
                     android:layout_margin="1dp"
                     android:background="@drawable/PNG4"
                     android:gravity="bottom"
-                    android:text="Happy Valentine's Day Pranjal!"
+                    android:text="Hello World!"
                     android:textColor="#FFFAFA"
                     android:textSize="45sp"
                     android:layout_gravity="bottom"
